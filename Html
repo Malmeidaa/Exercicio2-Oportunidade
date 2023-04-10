@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oportunidade SalesForce</title>
+    <link rel="stylesheet" href="saleforce.css" type="text/css">
+</head>
+<body>
+    <h1>Cadastro do cliente</h1>
+    <br/>
+    <br/>
+    <form >
+     
+        <label for="Nome">Nome da Oportunidade:</label><br/>
+        <input type="text" name="Nome" id="Nome" placeholder="Nome da Oportunidade"><br/>
+        <br/>
+        <label for="conta">Nome da Conta:</label><br/>
+        <input type="text" name="conta" id="conta" placeholder="Nome da Conta"><br/>
+        <br/>
+        <label for="tipo">Tipo:</label><br/>
+        <select name="tipo" id="tipo">
+            <option value="Existing Customer - Upgrade">Existing Custumer - Upgrade</option>
+            <option value="Existing Customer - Replacement">Existing Custumer - Replacement</option>
+            <option value="Existing Customer - Downgrade">Existing Custumer - Downgrade</option>
+            <option value="New Customer">New Customer</option>
+            
+        </select><br/>
+        <br/>  
+         <label for="origem">Origem do Lead:</label><br/>
+        <select name="origem" id="origem">
+            <option value="Nenhum">Nenhum</option>
+            <option value="Web">Web</option>
+            <option value="Phone Inquiry">Phone Inquiry</option>
+            <option value="Partner Referral">Partner Referral</option>
+            <option value="Purchased List">Purchased List</option>
+            <option value="Other">Other</option>
+            
+        </select><br/>
+        <br/>   
+        <label for="valor">valor:</label><br/>
+        <input type="number" name="cpf" id="cpf" placeholder="Valor"><br/>    
+        <br/>
+       
+        <label for="fec">Data de fechamento:</label><br/>
+        <input type="Date" name="fec" id="fec" placeholder="Data de fechamento"><br/>
+        <br/>
+
+        <label for="next">Próxima etapa:</label><br/>
+        <input type="text" name="next" id="next" placeholder="Próxima etapa">
+        <br/> <br/>
+
+        <label for="fase">Fase:</label><br/>
+        <select name="fase" id="fase">
+            <option value="Nenhum">Nenhum</option>
+            <option value="Prospecting">Prospecting</option>
+            <option value="Qualification">Qualification</option>
+            <option value="Needs Analysis">Needs Analysis</option>
+            <option value="Value Proposition">Value Proposition</option>
+            <option value="Id. Decision Makers">Id. Decision Makers</option>
+            <option value="Perception Analysis">Perception Analysis</option>
+            <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+            <option value="Negotiation/Review">Negotiation/Review</option>
+            <option value="Closed Won">Closed Won</option>
+            <option value="Closed Lost">Closed Lost</option>
+
+        </select><br/>
+        <br/>  
+        <label for="proba">Probabilidade:</label><br/>
+        <input type="number" name="proba" id="proba" placeholder="Probabilidade">
+        <br/> <br/>
+        <label for="descri">Descrição:</label><br/>
+        <input type="text" name="descri" id="descri" placeholder="Descrição">
+        <br/>
+        
+        
+        <br/>
+        
+        <br/>
+
+        <input type="button" value="Registrar">
+    </form>
+</body>
+</html>
